@@ -17,9 +17,6 @@ document.getElementById('time').innerHTML=time + "<br>on " + date;
 
 function saurav(){
     var n = new Date();
-document.write("ar-SA: " + n.toLocaleString("ar-SA") + "<br>");
-document.write("bn-BD: " + n.toLocaleString("bn-BD") + "<br>");
-document.write("bn-IN: " + n.toLocaleString("bn-IN") + "<br>");
 document.write("cs-CZ: " + n.toLocaleString("cs-CZ") + "<br>");
 document.write("da-DK: " + n.toLocaleString("da-DK") + "<br>");
 document.write("de-AT: " + n.toLocaleString("de-AT") + "<br>");
